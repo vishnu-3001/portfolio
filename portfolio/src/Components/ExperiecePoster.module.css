@@ -1,15 +1,21 @@
-   .card {
-    height: 90%;
-    width: 35%;
-    color: white;
-    margin: 4%;
-    border: none;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 60px rgba(255, 215, 0, 0.25);
-    border-radius: 16px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    perspective: 1000px;
-    font-family:sans-serif
-  }
+.card {
+  height: 85%;
+  width: 35%;
+  color: white;
+  margin: 4%;
+  border: none;
+  border-radius: 16px;
+  font-family: sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  perspective: 1000px;
+
+  /* Polished shadow stack */
+  box-shadow: 
+    0 8px 16px rgba(0, 0, 0, 0.6),          /* main soft shadow closer */
+    0 0 40px rgba(255, 215, 0, 0.3),        /* global golden aura */
+    0 10px 30px rgba(255, 215, 0, 0.5),     /* bottom-focused golden glow */
+    0 0 10px rgba(255, 215, 0, 0.4) inset;  /* soft inner glow for more richness */
+}
   
   .innerCard {
     width: 100%;
