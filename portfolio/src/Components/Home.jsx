@@ -3,6 +3,7 @@ import Navigation from "./Navigation";
 import classes from './Home.module.css';
 import About from "./About";
 import Experience from "./Experience";
+import Education from "./Education";
 export default function Home(){
     return(
         <div>
@@ -14,6 +15,7 @@ export default function Home(){
                 <About />
             </div>
             <Experience />
+            <Education />
         </div>
 
     )

@@ -1,6 +1,4 @@
 import classes from "./ExperiecePoster.module.css";
-import img from "../Utils/technology.png"
-
 export default function ExperiencePoster({experience}) {
   return (
     <div className={classes.card}>

@@ -37,15 +37,15 @@ export default function Navigation(){
                 <button className={classes.navButton}
                 onMouseEnter={()=>handleMouseEnter('Proj')}
                 onMouseLeave={handleMouseLeave}
-                style={{color:hovered==='Proj'?hoverColors[3]:'white',
-                    borderBottom:`2px solid ${hovered==='Proj'?hoverColors[3]:'transparent'}`}}
+                style={{color:hovered==='Proj'?hoverColors[0]:'white',
+                    borderBottom:`2px solid ${hovered==='Proj'?hoverColors[0]:'transparent'}`}}
                 >Projects</button>
                 <button className={classes.navButton}
                 onMouseEnter={()=>handleMouseEnter('C&P')}
                 onMouseLeave={handleMouseLeave}
                 style={{color:hovered==='C&P'?hoverColors[7]:'white',
                     borderBottom:`2px solid ${hovered==='C&P'?hoverColors[7]:'transparent'}`}}
-                >Certifications and Publications</button>
+                >Achievements</button>
                 {/* <button className={classes.navButton}
                 onMouseEnter={()=>handleMouseEnter('Lead')}
                 onMouseLeave={handleMouseLeave}
